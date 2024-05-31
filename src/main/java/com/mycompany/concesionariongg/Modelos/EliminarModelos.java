@@ -238,7 +238,7 @@ public class EliminarModelos extends javax.swing.JFrame {
                 .addContainerGap(26, Short.MAX_VALUE))
         );
 
-        jLabelTexto.setText("CONCESIONARIO NGG");
+        jLabelTexto.setText("ELIMINAR MODELOS");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

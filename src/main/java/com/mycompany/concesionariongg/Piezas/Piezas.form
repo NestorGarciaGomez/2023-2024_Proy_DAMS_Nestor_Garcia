@@ -224,7 +224,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabelTexto">
       <Properties>
-        <Property name="text" type="java.lang.String" value="CONCESIONARIO NGG"/>
+        <Property name="text" type="java.lang.String" value="FILTRADO DE PIEZAS"/>
       </Properties>
     </Component>
   </SubComponents>

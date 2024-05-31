@@ -94,7 +94,7 @@ public class VentasInicio extends javax.swing.JFrame {
             }
         });
 
-        jLabelTexto.setText("CONCESIONARIO NGG");
+        jLabelTexto.setText("INICIO VENTAS");
 
         jButtonMensuales.setText("MENSUALES");
         jButtonMensuales.addActionListener(new java.awt.event.ActionListener() {

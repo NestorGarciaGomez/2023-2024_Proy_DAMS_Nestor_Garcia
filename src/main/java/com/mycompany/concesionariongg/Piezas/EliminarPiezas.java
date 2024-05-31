@@ -203,7 +203,7 @@ public class EliminarPiezas extends javax.swing.JFrame {
                 .addContainerGap(42, Short.MAX_VALUE))
         );
 
-        jLabelTexto.setText("CONCESIONARIO NGG");
+        jLabelTexto.setText("ELIMINAR PIEZAS");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

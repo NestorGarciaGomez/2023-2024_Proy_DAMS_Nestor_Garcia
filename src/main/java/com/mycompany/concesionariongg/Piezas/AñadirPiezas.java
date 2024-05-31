@@ -39,7 +39,7 @@ public class AñadirPiezas extends javax.swing.JFrame {
         jPanel1.setBackground(new Color(128, 0, 128));
         jPanelOpciones.setBackground(new Color(128, 0, 128));
         jPanelOpciones.setBorder(borde);
-
+        //Se decora el titulo
         jLabelTexto.setFont(new Font("Arial", Font.BOLD, 24));
         jLabelTexto.setForeground(Color.WHITE);
         jLabelTexto.setAlignmentX(CENTER_ALIGNMENT);
@@ -192,7 +192,7 @@ public class AñadirPiezas extends javax.swing.JFrame {
                 .addContainerGap(42, Short.MAX_VALUE))
         );
 
-        jLabelTexto.setText("CONCESIONARIO NGG");
+        jLabelTexto.setText("AÑADIR PIEZAS");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

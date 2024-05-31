@@ -101,7 +101,7 @@ public class Gestiones extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(850, 780));
         jPanel1.setVerifyInputWhenFocusTarget(false);
 
-        jLabelTexto.setText("CONCESIONARIO NGG");
+        jLabelTexto.setText("MENÚ GESTIONES");
 
         jButtonVolver.setText("Volver");
         jButtonVolver.addActionListener(new java.awt.event.ActionListener() {

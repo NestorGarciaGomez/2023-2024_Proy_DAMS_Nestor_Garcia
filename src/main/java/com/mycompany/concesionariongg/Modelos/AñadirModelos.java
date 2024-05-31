@@ -225,7 +225,7 @@ public class AñadirModelos extends javax.swing.JFrame {
                 .addContainerGap(26, Short.MAX_VALUE))
         );
 
-        jLabelTexto.setText("CONCESIONARIO NGG");
+        jLabelTexto.setText("AÑADIR MODELOS");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

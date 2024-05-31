@@ -29,7 +29,7 @@ public class GestionarPiezas extends javax.swing.JFrame {
         //Se cambia el color de fondo de la ventana
         getContentPane().setBackground(new Color(128, 0, 128));
         //Se añade el titulo
-        jLabelTexto.setText("CONCESIONARIO NGG");
+        jLabelTexto.setText("GESTIÓN DE PIEZAS");
         jLabelTexto.setFont(new Font("Arial", Font.BOLD, 20));
         jLabelTexto.setAlignmentX(CENTER_ALIGNMENT);
         jLabelTexto.setForeground(Color.WHITE);
@@ -89,7 +89,7 @@ public class GestionarPiezas extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabelTexto.setText("CONCESIONARIO NGG");
+        jLabelTexto.setText("GESTIÓN DE PIEZAS");
 
         jButtonVolver.setText("Volver");
         jButtonVolver.addActionListener(new java.awt.event.ActionListener() {

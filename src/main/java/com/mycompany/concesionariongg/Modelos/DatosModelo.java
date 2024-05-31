@@ -11,7 +11,6 @@ import com.itextpdf.layout.element.Paragraph;
 import com.itextpdf.layout.element.Table;
 import com.itextpdf.layout.property.HorizontalAlignment;
 import com.itextpdf.layout.property.TextAlignment;
-import com.mongodb.client.result.DeleteResult;
 import com.mycompany.concesionariongg.Conexion.Conexion;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -291,6 +290,7 @@ public class DatosModelo extends javax.swing.JFrame {
                     .append("ingreso", ingreso);
             conexion.col_Ventas.insertOne(venta2);
             //Se avisa por mensaje de la venta y se borra el modelo
+            JOptionPane.showMessageDialog(this, "El Vehículo se ha vendido correctamente.", "Warning", JOptionPane.WARNING_MESSAGE);
             Document d1 = new Document();
             d1.append("Marca", marca);
             d1.append("Modelo", modelo);
@@ -302,8 +302,6 @@ public class DatosModelo extends javax.swing.JFrame {
             d1.append("Cambio", cambio);
             d1.append("Estado", estado);
             conexion.col_Modelos.deleteOne(d1);
-            JOptionPane.showMessageDialog(this, "El Vehículo se ha vendido correctamente.", "Warning", JOptionPane.WARNING_MESSAGE);
-
             Modelos newframe = new Modelos();
 
             newframe.setVisible(true);

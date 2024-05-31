@@ -64,12 +64,12 @@
                       <EmptySpace min="-2" pref="213" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Component id="jLabelTexto" min="-2" pref="420" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
                       <Component id="jLabelOpciones" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="331" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabelTexto" min="-2" pref="420" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -96,7 +96,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabelTexto">
       <Properties>
-        <Property name="text" type="java.lang.String" value="CONCESIONARIO NGG"/>
+        <Property name="text" type="java.lang.String" value="MEN&#xda; COMERCIAL"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabelOpciones">

@@ -362,7 +362,7 @@ public class Modelos extends javax.swing.JFrame {
                 .addGap(16, 16, 16))
         );
 
-        jLabelTexto.setText("CONCESIONARIO NGG");
+        jLabelTexto.setText("FILTRADO DE MODELOS");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

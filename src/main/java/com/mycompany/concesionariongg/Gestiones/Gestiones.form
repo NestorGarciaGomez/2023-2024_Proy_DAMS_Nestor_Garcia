@@ -102,7 +102,7 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="jLabelTexto">
           <Properties>
-            <Property name="text" type="java.lang.String" value="CONCESIONARIO NGG"/>
+            <Property name="text" type="java.lang.String" value="MEN&#xda; GESTIONES"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="jButtonVolver">

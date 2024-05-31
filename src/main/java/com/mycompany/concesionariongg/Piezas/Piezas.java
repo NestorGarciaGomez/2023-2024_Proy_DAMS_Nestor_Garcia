@@ -190,7 +190,7 @@ public class Piezas extends javax.swing.JFrame {
                 .addGap(34, 34, 34))
         );
 
-        jLabelTexto.setText("CONCESIONARIO NGG");
+        jLabelTexto.setText("FILTRADO DE PIEZAS");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
