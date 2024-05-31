@@ -26,6 +26,7 @@ import java.net.MalformedURLException;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -493,7 +494,8 @@ public class Disenyo extends javax.swing.JFrame {
         }
         anyo = jTextFieldAnyo.getText();
         //Pasamos los datos seleccionados de los jcombobox al pdf
-        int precioTotal = ThreadLocalRandom.current().nextInt() * (6000 - 2000) + 2000;
+        Random random = new Random();
+        int precioTotal = random.nextInt(4001) + 2000;
         String tapiceria = (String) jComboBoxTapiceria.getSelectedItem();
         String luces = (String) jComboBoxLuces.getSelectedItem();
         String llantas = (String) jComboBoxLlantas.getSelectedItem();
